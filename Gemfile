@@ -29,6 +29,12 @@ group :development, :test do
 
   #my gems
   gem 'rspec-rails', '~> 3.0'
+  gem "factory_girl_rails"
 
+end
+
+# my gems
+group :test do
+  gem "database_cleaner"
 end
 
