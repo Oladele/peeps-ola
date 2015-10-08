@@ -1,0 +1,14 @@
+{
+  "resources": [
+    {
+      "name": "Contacts",
+      "examples": [
+        {
+          "description": "List contacts",
+          "link": "contacts/list_contacts.json",
+          "groups": "all"
+        }
+      ]
+    }
+  ]
+}

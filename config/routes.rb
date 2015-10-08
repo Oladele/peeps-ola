@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  # root to: redirect("/doc")
+  # root to: redirect("/docs")
   
   jsonapi_resources :contacts
   jsonapi_resources :phone_numbers

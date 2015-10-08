@@ -1,6 +1,6 @@
 example_id                                       | status  | run_time        |
 ------------------------------------------------ | ------- | --------------- |
-./spec/acceptance/contacts_spec.rb[1:1:1]        | passed  | 0.01593 seconds |
+./spec/acceptance/contacts_spec.rb[1:1:1]        | passed  | 0.01847 seconds |
 ./spec/helpers/contacts_helper_spec.rb[1:1]      | pending | 0.00001 seconds |
 ./spec/helpers/phone_numbers_helper_spec.rb[1:1] | pending | 0.00002 seconds |
 ./spec/models/contact_spec.rb[1:1]               | pending | 0.00001 seconds |

@@ -1,0 +1,12 @@
+List contacts
+-------------
+
+Request:
+  GET /contacts
+  Content-Type: application/vnd.api+json
+
+Response:
+  Status: 200 OK
+  Content-Type: application/vnd.api+json
+
+  {"data":[{"id":"1","type":"contacts","links":{"self":"http://example.org/contacts/1"},"attributes":{"name-first":"MyString","name-last":"MyString","email":"MyString","twitter":"MyString"},"relationships":{"phone-numbers":{"links":{"self":"http://example.org/contacts/1/relationships/phone-numbers","related":"http://example.org/contacts/1/phone-numbers"}}}}]}
