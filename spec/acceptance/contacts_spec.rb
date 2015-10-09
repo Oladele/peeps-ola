@@ -6,6 +6,7 @@ RSpec.resource "Contacts" do
   get "/contacts" do
     before do
       FactoryGirl.create :contact
+      FactoryGirl.create :contact
     end
 
     example_request "List contacts" do

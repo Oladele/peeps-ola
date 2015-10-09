@@ -23,7 +23,7 @@
       "request_content_type": "application/vnd.api+json",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\"data\":[{\"id\":\"1\",\"type\":\"contacts\",\"links\":{\"self\":\"http://example.org/contacts/1\"},\"attributes\":{\"name-first\":\"MyString\",\"name-last\":\"MyString\",\"email\":\"MyString\",\"twitter\":\"MyString\"},\"relationships\":{\"phone-numbers\":{\"links\":{\"self\":\"http://example.org/contacts/1/relationships/phone-numbers\",\"related\":\"http://example.org/contacts/1/phone-numbers\"}}}}]}",
+      "response_body": "{\"data\":[{\"id\":\"1\",\"type\":\"contacts\",\"links\":{\"self\":\"http://example.org/contacts/1\"},\"attributes\":{\"name-first\":\"MyString\",\"name-last\":\"MyString\",\"email\":\"MyString\",\"twitter\":\"MyString\"},\"relationships\":{\"phone-numbers\":{\"links\":{\"self\":\"http://example.org/contacts/1/relationships/phone-numbers\",\"related\":\"http://example.org/contacts/1/phone-numbers\"}}}},{\"id\":\"2\",\"type\":\"contacts\",\"links\":{\"self\":\"http://example.org/contacts/2\"},\"attributes\":{\"name-first\":\"MyString\",\"name-last\":\"MyString\",\"email\":\"MyString\",\"twitter\":\"MyString\"},\"relationships\":{\"phone-numbers\":{\"links\":{\"self\":\"http://example.org/contacts/2/relationships/phone-numbers\",\"related\":\"http://example.org/contacts/2/phone-numbers\"}}}}]}",
       "response_headers": {
         "Content-Type": "application/vnd.api+json"
       },
